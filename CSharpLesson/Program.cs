@@ -88,6 +88,61 @@ namespace CSharpLesson
 			foreach(gamer gmr in gamers) {
 				Console.WriteLine("{0} Fav nbr is {1}", gmr.name, gmr.favnbr);
 			}
+
+
+			//Console.Write("Enter a number from 1 to 10:");
+			//string response = Console.ReadLine();
+			//Console.WriteLine(response);
+
+			// c# if statement example
+
+			//Console.Write("Enter 100, 200, or 300: ");
+			//string ansxxx = Console.ReadLine();
+			//int xxx = int.Parse(ansxxx);
+			//string color = "red";
+			//if(xxx == 100) {
+			//	Console.WriteLine("xxx is equal to 100");
+			//	if(color == "red") {
+			//		Console.WriteLine("color is red");
+			//	} else {
+			//		if (color == "yellow") {
+			//			Console.WriteLine("color is yellow");
+			//		} else {
+			//			if (color == "green") {
+			//				Console.WriteLine("color is green");
+			//			} else {
+			//				Console.WriteLine("color is something else");
+			//			}
+			//		}
+			//	}
+			//} else {
+			//	if(xxx == 200) {
+			//		Console.WriteLine("x is equal to 200");
+			//	} else {
+			//		if (xxx == 300) {
+			//			Console.WriteLine("xxx is equal to 300");
+			//		} else {
+			//			Console.WriteLine("xxx is not 100,200, or 300");
+			//		}
+			//	}
+			//}
+
+			//  while loop example, always create a way to eventually make the loop statement false //
+			int idx = 0;
+			while(idx < 50) {
+				if (idx % 2 == 0) {
+					Console.WriteLine("The index {0} is even", idx);
+				}
+				if (idx % 3 == 0) {
+					Console.WriteLine("The index {0} is div by 3", idx);
+				}
+				if (idx % 7 == 0) {
+					Console.WriteLine("The index {0} is div by 7", idx);
+				}
+				idx++;
+			}
+
+			
 		}
 	}
 }
